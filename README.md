@@ -58,32 +58,13 @@ In that spreadsheet:
 
 ### 3. Fill in `data/items.json`
 
-Set the four values in `config`:
+Set the three values in `config`:
 
 ```json
 "formBaseUrl":   "https://docs.google.com/forms/d/e/XXXX/viewform",
 "formItemEntry": "entry.123456789",
-"statusCsvUrl":  "https://docs.google.com/spreadsheets/d/e/XXXX/pub?gid=123&single=true&output=csv",
-"sellerContact": "WeChat: scarletgzh  ·  Email: solonori.guo@gmail.com"
+"statusCsvUrl":  "https://docs.google.com/spreadsheets/d/e/XXXX/pub?gid=123&single=true&output=csv"
 ```
-
-### 4. Friend prices
-
-1. Edit `discounts.plain.json` in the repo root (this file is **gitignored** — it never gets
-   committed):
-
-   ```json
-   { "bed-frame": 95, "wardrobe": 60, "water-dispenser": 40 }
-   ```
-
-2. Encrypt it with your chosen code (pick a 3–4 word passphrase):
-
-   ```bash
-   node scripts/encrypt-discounts.mjs "maple street 42"
-   ```
-
-   This writes `data/discounts.enc.json`. Commit **only** that file.
-   Re-run this whenever you change a friend price.
 
 ### 5. Publish
 
@@ -159,7 +140,7 @@ Then open <http://localhost:8000>. For a full local test you can temporarily poi
 | `index.html` / `assets/` | the page |
 | `data/items.json` | catalog, categories, list prices, config |
 | `data/discounts.enc.json` | encrypted friend prices (committed) |
-| `discounts.plain.json` | plaintext friend prices (gitignored, local only) |
-| `scripts/encrypt-discounts.mjs` | encrypts the above |
+| `discounts.plain.json` | plaintext friend discount rule (gitignored, local only) |
+| `scripts/encrypt-discounts.mjs` | encrypts the discount rule |
 | `data/status.sample.csv` | example of the `Status` tab format |
 | `images/` | item photos |

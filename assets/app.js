@@ -183,7 +183,6 @@ function applyStaticText() {
   $("#site-intro").textContent = L(state.config.intro);
   $("#lang-toggle").textContent = t("langName");
   $("#pickup-info").textContent = L(state.config.pickupInfo);
-  $("#seller-contact").textContent = state.config.sellerContact || "";
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     el.textContent = t(el.dataset.i18n);
   });
@@ -537,8 +536,8 @@ async function tryUnlock(code, { silent }) {
   if (!state.encPayload) return;
 
   try {
-    const prices = await decryptDiscounts(state.encPayload, code);
-    state.friendPrices = prices;
+    const discountConfig = await decryptDiscounts(state.encPayload, code);
+    state.friendPrices = resolveFriendPrices(discountConfig);
     localStorage.setItem("ms-code", code);
     if (!silent) {
       state.codeMsg = "ok";
@@ -552,6 +551,23 @@ async function tryUnlock(code, { silent }) {
     }
     localStorage.removeItem("ms-code");
   }
+}
+
+function resolveFriendPrices(discountConfig) {
+  if (discountConfig?.type !== "percentage") return discountConfig;
+
+  const percentOff = Number(discountConfig.percentOff);
+  if (!Number.isFinite(percentOff) || percentOff <= 0 || percentOff >= 100) {
+    throw new Error("Invalid friend discount percentage");
+  }
+
+  const prices = {};
+  for (const item of state.items) {
+    const listPrice = Number(item.listPrice);
+    if (!Number.isFinite(listPrice)) continue;
+    prices[item.id] = Math.round(listPrice * (100 - percentOff)) / 100;
+  }
+  return prices;
 }
 
 async function decryptDiscounts(payload, code) {
