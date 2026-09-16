@@ -258,10 +258,10 @@
       "name": { "zh": "追觅腰部按摩仪器", "en": "Waist massager" },
       "desc": { "zh": "", "en": "" },
       "condition": { "zh": "良好", "en": "Good" },
-      "listPrice": 20,
+      "listPrice": 30,
       "currency": "USD",
       "dimensions": "",
-      "images": ["21_massage.HEIC"]
+      "images": ["21_massage.jpeg"]
     },
     {
       "id": "22-backpack",
@@ -269,7 +269,7 @@
       "name": { "zh": "PGYTech 16L 相机包", "en": "PGYTech 16L Camera Bag" },
       "desc": { "zh": "带可移动隔层，可以同时放相机、无人机、镜头等", "en": "" },
       "condition": { "zh": "良好", "en": "Good" },
-      "listPrice": 20,
+      "listPrice": 30,
       "retailPrice": 109.95,
       "link": "https://www.amazon.com/dp/B0DT17X3ZQ?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1",
       "currency": "USD",
