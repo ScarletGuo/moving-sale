@@ -2,8 +2,8 @@
   "config": {
     "title": { "zh": "搬家甩卖", "en": "Moving Sale" },
     "intro": {
-      "zh": "都是自用好物，价格可小刀。看中的点「预订」，我确认后联系你交易。",
-      "en": "Gently used stuff I need to rehome before I move. Tap Book on anything you want — I'll confirm and reach out to arrange pickup."
+      "zh": "自用好物，看中的点「预订」，我确认后联系你交易。刷新查看最新预定状态。自提地点：94086（下单后私聊）",
+      "en": "Gently used stuff I need to rehome before I move. Tap Book on anything you want — I'll confirm and reach out to arrange pickup. Refresh to see the latest booking status. Pickup location (94086) shared after booking. "
     },
     "formBaseUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdASjTPPjLL7v9ft8d-e5a6YGKjah0X__AbPEzJHVGdxWtoXw/viewform",
     "formItemEntry": "entry.716202678",
