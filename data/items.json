@@ -2,8 +2,8 @@
   "config": {
     "title": { "zh": "搬家甩卖", "en": "Moving Sale" },
     "intro": {
-      "zh": "自用好物，看中的点「预订」，我确认后联系你交易。刷新查看最新预定状态。自提地点：94086（下单后私聊）",
-      "en": "Gently used stuff I need to rehome before I move. Tap Book on anything you want — I'll confirm and reach out to arrange pickup. Refresh to see the latest booking status. Pickup location (94086) shared after booking. "
+      "zh": "自用好物，不定期更新（还在家里搜寻中），看中的点「预订」，我确认后联系你交易。刷新查看最新预定状态。10/13前都可以取货，自提地点：94086（下单后私聊）",
+      "en": "Pre-loved items, with more added as I continue sorting through the house. Tap Book to reserve anything you'd like—I'll confirm and follow up to arrange pickup. Refresh to check the latest availability. Pickup is available through October 13 in the 94086 area; the exact location will be shared after booking."
     },
     "formBaseUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdASjTPPjLL7v9ft8d-e5a6YGKjah0X__AbPEzJHVGdxWtoXw/viewform",
     "formItemEntry": "entry.716202678",
@@ -251,6 +251,18 @@
       "currency": "USD",
       "dimensions": "",
       "images": ["20_flower_plate.jpeg"]
+    },
+    {
+      "id": "19-vaccumm-robot",
+      "category": "home",
+      "name": { "zh": "追觅 扫拖一体机器人", "en": "Dreame floor cleaning robot" },
+      "desc": { "zh": "", "en": "" },
+      "condition": { "zh": "九九成新", "en": "Good" },
+      "listPrice": 15,
+      "link": "https://www.bestbuy.com/product/niu-kqi3-pro-foldable-electric-kick-scooter-w-31-mi-max-operating-range-20-mph-max-speed-black/J3R8WGPF8R",
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["19_vaccumm_robot.jpeg"]
     }
   ]
 }
