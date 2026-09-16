@@ -2,14 +2,14 @@
   "config": {
     "title": { "zh": "搬家甩卖", "en": "Moving Sale" },
     "intro": {
-      "zh": "自用好物，不定期更新（还在家里搜寻中），看中的点「预订」，我确认后联系你交易。刷新查看最新预定状态。10/13前都可以取货，自提地点：94086（下单后私聊）",
-      "en": "Pre-loved items, with more added as I continue sorting through the house. Tap Book to reserve anything you'd like—I'll confirm and follow up to arrange pickup. Refresh to check the latest availability. Pickup is available through October 13 in the 94086 area; the exact location will be shared after booking."
+      "zh": "自用好物，不定期更新（还在家里搜寻中），看中的点「预订」，我确认后联系你交易。刷新查看最新预定状态。10/13前都可以取货，自提地点：除额外备注外默认94086（下单后私聊）",
+      "en": "Pre-loved items, with more added as I continue sorting through the house. Tap Book to reserve anything you'd like—I'll confirm and follow up to arrange pickup. Refresh to check the latest availability. Pickup is available through October 13 in the 94086 area unless otherwise noted; the exact location will be shared after booking."
     },
     "formBaseUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdASjTPPjLL7v9ft8d-e5a6YGKjah0X__AbPEzJHVGdxWtoXw/viewform",
     "formItemEntry": "entry.716202678",
     "statusCsvUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRv5IhBF1__skLcwBjjOXO-pajsD57Xo41ulEJN_ILYFQTDr4sIx8XOnZ5zN68Dfnz8TTC5S4at_RoT/pub?gid=869681741&single=true&output=csv",
     "pickupInfo": {
-      "zh": "自提地点：94086（下单后私聊）",
+      "zh": "自提地点：除额外备注外默认94086（下单后私聊）",
       "en": "Pickup location shared after booking. Happy to carry large items downstairs."
     }
   },
