@@ -426,10 +426,14 @@ function renderBook(item) {
 
   const url = new URL(base);
   if (entry && !isPlaceholder(entry)) {
-    const listPrice = `${item.currency || "USD"} ${item.listPrice}`;
+    const currency = item.currency || "USD";
+    const friendPrice = state.friendPrices && state.friendPrices[item.id];
+    const priceSnapshot = friendPrice != null
+      ? `Friend price: ${currency} ${friendPrice} | List price: ${currency} ${item.listPrice}`
+      : `List price: ${currency} ${item.listPrice}`;
     url.searchParams.set(
       entry,
-      `${L(item.name)} [${item.id}] | List price: ${listPrice}`
+      `${L(item.name)} [${item.id}] | ${priceSnapshot}`
     );
   }
   const a = document.createElement("a");
