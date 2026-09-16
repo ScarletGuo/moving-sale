@@ -427,7 +427,11 @@ function renderBook(item) {
 
   const url = new URL(base);
   if (entry && !isPlaceholder(entry)) {
-    url.searchParams.set(entry, `${L(item.name)} [${item.id}]`);
+    const listPrice = `${item.currency || "USD"} ${item.listPrice}`;
+    url.searchParams.set(
+      entry,
+      `${L(item.name)} [${item.id}] | List price: ${listPrice}`
+    );
   }
   const a = document.createElement("a");
   a.className = "btn book";
