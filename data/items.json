@@ -255,11 +255,10 @@
     {
       "id": "21-massage",
       "category": "home",
-      "name": { "zh": "腰部按摩仪器", "en": "Waist massager" },
+      "name": { "zh": "追觅腰部按摩仪器", "en": "Waist massager" },
       "desc": { "zh": "", "en": "" },
       "condition": { "zh": "良好", "en": "Good" },
       "listPrice": 20,
-      "link": "https://www.bestbuy.com/product/niu-kqi3-pro-foldable-electric-kick-scooter-w-31-mi-max-operating-range-20-mph-max-speed-black/J3R8WGPF8R",
       "currency": "USD",
       "dimensions": "",
       "images": ["21_massage.jpeg"]
