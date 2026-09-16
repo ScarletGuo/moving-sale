@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Moving Sale</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%A6%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div class="titles">
+        <h1 id="site-title">Moving Sale</h1>
+        <p id="site-intro" class="intro"></p>
+      </div>
+      <div class="controls">
+        <button id="lang-toggle" type="button" class="btn ghost" aria-label="Switch language">中文</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="toolbar">
+      <div id="category-bar" class="chips" role="tablist" aria-label="Categories"></div>
+      <div class="toolbar-right">
+        <button id="refresh-btn" type="button" class="btn ghost" title="Refresh availability">↻ <span data-i18n="refresh">Refresh</span></button>
+      </div>
+    </section>
+
+    <p id="code-msg" class="code-msg" hidden></p>
+    <p id="status-msg" class="status-msg" hidden></p>
+
+    <div id="catalog"></div>
+
+    <p id="empty-msg" class="empty" hidden></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p id="pickup-info"></p>
+      <p id="seller-contact" class="muted"></p>
+      <p class="muted tiny" data-i18n="footerNote"></p>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

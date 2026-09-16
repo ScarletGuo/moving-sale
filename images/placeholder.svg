@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#e9e6df"/>
+  <path d="M0 430 L250 260 L430 400 L560 320 L800 470 L800 600 L0 600 Z" fill="#d4cfc3"/>
+  <circle cx="620" cy="150" r="60" fill="#d4cfc3"/>
+  <text x="400" y="320" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="34" fill="#8c8676" text-anchor="middle">照片待补 / photo coming</text>
+</svg>

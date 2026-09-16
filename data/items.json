@@ -1,0 +1,245 @@
+{
+  "config": {
+    "title": { "zh": "搬家甩卖", "en": "Moving Sale" },
+    "intro": {
+      "zh": "都是自用好物，价格可小刀。看中的点「预订」，我确认后联系你交易。",
+      "en": "Gently used stuff I need to rehome before I move. Tap Book on anything you want — I'll confirm and reach out to arrange pickup."
+    },
+    "formBaseUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdASjTPPjLL7v9ft8d-e5a6YGKjah0X__AbPEzJHVGdxWtoXw/viewform",
+    "formItemEntry": "entry.716202678",
+    "statusCsvUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRv5IhBF1__skLcwBjjOXO-pajsD57Xo41ulEJN_ILYFQTDr4sIx8XOnZ5zN68Dfnz8TTC5S4at_RoT/pub?gid=869681741&single=true&output=csv",
+    "sellerContact": "WeChat: scarletgzh  ·  Email: solonori.guo@gmail.com",
+    "pickupInfo": {
+      "zh": "自提地点：94086（下单后私聊）",
+      "en": "Pickup location shared after booking. Happy to carry large items downstairs."
+    }
+  },
+  "categories": [
+    { "id": "furniture",   "zh": "大件家具",   "en": "Large Furniture" },
+    { "id": "appliances",  "zh": "家电",       "en": "Appliances" },
+    { "id": "mobility",    "zh": "出行",       "en": "Mobility" },
+    { "id": "electronics", "zh": "电子产品",   "en": "Electronics" },
+    { "id": "home",        "zh": "家居杂物",   "en": "Home & Misc" }
+  ],
+  "items": [
+    {
+      "id": "01-ninja-combi-cooker",
+      "category": "appliances",
+      "name": { "zh": "Ninja 多功能料理锅", "en": "Ninja Combi cooker" },
+      "desc": { "zh": "带上层烤盘，可慢炖、带测温棒煎烤牛排等，2026/02/25 购于costco", "en": "Includes the upper cooking tray; supports slow cook, steam, bake, rice and more. Please confirm operation before purchase." },
+      "condition": { "zh": "良好", "en": "Good condition" },
+      "listPrice": 50,
+      "currency": "USD",
+      "retailPrice": 129.99,
+      "link": "https://sameday.costco.com/store/costco/products/87303582-ninja-foodi-possiblecooker-pro-plus-with-11in1-smart-cook-system",
+      "dimensions": "",
+      "images": ["01_ninja_combi_cooker_1.jpeg", "01_ninja_combi_cooker_2.jpeg"]
+    },
+    {
+      "id": "02-foodsaver-vacuum-sealer",
+      "category": "appliances",
+      "name": { "zh": "FoodSaver 真空封口机", "en": "FoodSaver vacuum sealer" },
+      "desc": { "zh": "台式食物真空封口机，带干湿模式和手持配件接口。", "en": "Countertop food vacuum sealer with dry/moist modes and a handheld-accessory port." },
+      "condition": { "zh": "良好", "en": "Good condition" },
+      "listPrice": 35,
+      "retailPrice": 99.99,
+      "link": "https://sameday.costco.com/store/costco/products/87303582-ninja-foodi-possiblecooker-pro-plus-with-11in1-smart-cook-system",
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["02_foodsaver_vacuum_sealer.jpeg"]
+    },
+    {
+      "id": "03-cuisinart-ice-cream-maker",
+      "category": "appliances",
+      "name": { "zh": "Cuisinart 冰淇淋机", "en": "Cuisinart ice cream maker" },
+      "desc": { "zh": "红色冰淇淋机，可制作超顺滑冰淇淋，April 19, 2025购于amazon; ", "en": "Red countertop ice cream / gelato maker with the clear lid and mixing paddle shown. April 19, 2025 purchased from Amazon. " },
+      "condition": { "zh": "良好", "en": "Good condition" },
+      "link": "https://www.amazon.com/dp/B0041A3KPC?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_5",
+      "listPrice": 20,
+      "retailPrice": 76.33,
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["03_cuisinart_ice_cream_maker.jpeg","03_cuisinart_ice_cream_maker_2.jpeg"]
+    },
+    {
+      "id": "04-bruno-compact-hot-plate",
+      "category": "appliances",
+      "name": { "zh": "BRUNO 多功能电火锅", "en": "BRUNO compact hot plate" },
+      "desc": { "zh": "绿色多功能电烤锅，含深锅、鸳鸯锅锅及烧烤盘等可见配件。", "en": "Green compact hot plate with the deep pot, divided pot and grill plate shown." },
+      "condition": { "zh": "外观良好", "en": "Good cosmetic condition" },
+      "listPrice": 50,
+      "retailPrice": 235,
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["04_bruno_compact_hot_plate.jpeg"]
+    },
+    {
+      "id": "05-dash-mini-waffle-makers",
+      "category": "appliances",
+      "name": { "zh": "DASH 迷你华夫饼机套装", "en": "DASH mini waffle maker set" },
+      "desc": { "zh": "迷你华夫饼机及多款可见烤盘/机身，按图整套出售。", "en": "Mini waffle makers with assorted plates/units, sold together as pictured." },
+      "condition": { "zh": "Good Condition", "en": "Good condition" },
+      "listPrice": 10,
+      "retailPrice": 34,
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["05_dash_mini_waffle_makers.jpeg"]
+    },
+    {
+      "id": "06-maestri-house-milk-frother",
+      "category": "appliances",
+      "name": { "zh": "Maestri House 奶泡机", "en": "Maestri House milk frother" },
+      "desc": { "zh": "不锈钢奶泡机，带手柄和温度/模式控制。", "en": "Stainless-steel milk frother with handle and temperature/mode controls." },
+      "condition": { "zh": "有使用痕迹", "en": "Used condition" },
+      "link": "https://www.amazon.com/Maestri-House-Thickness-Dishwasher-Chocolate/dp/B0DXZ9VRVG/ref=sr_1_2_sspa?crid=2J95BLI66F78L&dib=eyJ2IjoiMSJ9.xMdcpuflYVDjOYQOTF94WRiuq9yhzvsIurNchFA8MC3AoBCp2Zq_kj4yMga_Y2b2R1JYFycbzTux9T5vsN1IjPaLsWCsxC8EmJrgEdqlsLreTfXyRwDteY_3LZArSUdYayRtJY3-O3UX0rCQ_Gik1y9Y3fyH5UPoYzBVEt8gnUOcD3dTrlZFy1N4V6bhRHqKqVpXIWbvfghrOsQoOakXYtE5OB8avyVEmjWvT4nekJdPl0Nd4YK8-S7U-dBTHTlRdCK-OwIGLVERmrAnGZhxHFml6kU6Er0qHuKwdub_E7o.rebbtox5Xrst-VogEIOBpwbhdgFMKL5c1eILUT5QP6c&dib_tag=se&keywords=Maestri%2BHouse%2Bmilk%2Bfrother&qid=1789583002&sprefix=maestri%2Bhouse%2Bmilk%2Bfrother%2Caps%2C231&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1",
+      "listPrice": 20,
+      "retailPrice": 89.99,
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["06_maestri_house_milk_frother.jpeg"]
+    },
+    {
+      "id": "07-buydeem-electric-cooker",
+      "category": "appliances",
+      "name": { "zh": "BUYDEEM 多功能电煮锅", "en": "BUYDEEM electric cooker" },
+      "desc": { "zh": "带不锈钢锅体的多功能电煮锅，上汽极快，支持定时和保温等模式。", "en": "Multi-function electric cooker with a stainless-steel vessel, timer and keep-warm controls." },
+      "condition": { "zh": "有使用痕迹", "en": "Used condition" },
+      "listPrice": 35,
+      "retailPrice": 149.99,
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["07_buydeem_electric_cooker.jpeg"]
+    },
+    {
+      "id": "08-cuckoo-rice-cooker",
+      "category": "appliances",
+      "name": { "zh": "CUCKOO 电饭煲", "en": "CUCKOO rice cooker" },
+      "desc": { "zh": "CUCKOO CR-0637SF 电饭煲，带多种菜单和自动清洁模式。购于亚米", "en": "CUCKOO CR-0637SF rice cooker with multiple menu settings and auto-clean mode." },
+      "condition": { "zh": "有使用痕迹", "en": "Used condition" },
+      "listPrice": 30,
+      "retailPrice": 109.99,
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["08_cuckoo_rice_cooker.jpeg"]
+    },
+    {
+      "id": "09-gray-stoneware-dinnerware",
+      "category": "home",
+      "name": { "zh": "Crate & Barrel餐具套装", "en": "Crate & Barrel  dinnerware set" },
+      "desc": { "zh": "Crate & Barrel 18th Street Collection 黑色陶瓷餐具，含大盘*2、碗*2和马克杯*2", "en": "18th Street Collection, black stoneware set with plates*2, bowls*2 and mugs*2" },
+      "condition": { "zh": "外观良好", "en": "Good cosmetic condition" },
+      "listPrice": 30,
+      "retailPrice": 71.7,
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["09_gray_stoneware_dinnerware.jpeg"]
+    },
+    {
+      "id": "10-joyoung-soy-milk-maker",
+      "category": "appliances",
+      "name": { "zh": "九阳豆浆机", "en": "Joyoung soy milk maker" },
+      "desc": { "zh": "粉色九阳豆浆机，可制作豆浆、米糊、果汁、自清洗等。", "en": "Pink Joyoung maker with programs for soy milk, rice paste, juice and more. self-cleaning function included." },
+      "condition": { "zh": "良好", "en": "Good condition" },
+      "listPrice": 35,
+      "retailPrice": 108.99,
+      "link": "https://www.yami.com/us/zh/p/superfine-grinding-filter-free-multifunctional-soymilk-maker-mini-version-rose-pink/1028272191?bu_type=search&index=5&track=search-input-5-1028272191&content=%E4%B9%9D%E9%98%B3%E8%B1%86%E6%B5%86%E6%9C%BA&module_name=input&scene=item_search.result&pg=1",
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["10_joyoung_soy_milk_maker.jpeg"]
+    },
+    {
+      "id": "11-bear-food-chopper",
+      "category": "appliances",
+      "name": { "zh": "小熊电动绞肉机", "en": "Bear electric food chopper" },
+      "desc": { "zh": "电动食材切碎机，含两个透明容器和可见刀组。", "en": "Electric food chopper with two clear containers and the visible blade assemblies." },
+      "condition": { "zh": "良好", "en": "Good condition" },
+      "listPrice": 15,
+      "retailPrice": 38.99,
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["11_bear_food_chopper.jpeg"]
+    },
+    {
+      "id": "12-beige-ceramic-dinnerware",
+      "category": "home",
+      "name": { "zh": "米白色陶瓷餐具套装", "en": "Beige ceramic dinnerware set" },
+      "desc": { "zh": "米白色陶瓷餐具，含大小餐盘各两个和杯子两个", "en": "Beige ceramic set with dinner plates, smaller plates and cups; quantity as pictured." },
+      "condition": { "zh": "外观良好", "en": "Good cosmetic condition" },
+      "listPrice": 20,
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["12_beige_ceramic_dinnerware.jpeg"]
+    },
+    {
+      "id": "13-marble-cake-stand",
+      "category": "home",
+      "name": { "zh": "Create & Barrel 大理石纹蛋糕台", "en": "Create & Barrel Marble cake stand with dome" },
+      "desc": { "zh": "大理石纹底座配透明玻璃罩，可作蛋糕盘或食物展示罩。", "en": "Marble-patterned pedestal base with a clear glass dome for cakes or food display." },
+      "condition": { "zh": "外观良好", "en": "Good cosmetic condition" },
+      "listPrice": 20,
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["13_marble_cake_stand.jpeg"]
+    },
+    {
+      "id": "14-coffee-grinder",
+      "category": "appliances",
+      "name": { "zh": "Df54专业电动咖啡磨豆机", "en": "Df54 electric coffee grinder" },
+      "desc": { "zh": "最近购于MiiCoffee, 带刻度调节环和接粉杯的电动磨豆机，手冲意式都可以磨。", "en": "Recently purchased from MiiCoffee, df54 electric burr-style coffee grinder with an adjustment dial and grounds container." },
+      "condition": { "zh": "良好", "en": "Good condition" },
+      "listPrice": 85,
+      "retailPrice": 229,
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["14_coffee_grinder.jpeg"]
+    },
+    {
+      "id": "15-dreo-tower-heater",
+      "category": "appliances",
+      "name": { "zh": "DREO 6L加湿器", "en": "DREO humidifier" },
+      "desc": { "zh": "热蒸发加湿器，产生无菌的高温蒸汽，冷却后进入空气，可以app控制", "en": "Heat evaporation humidifier that produces sterile high-temperature steam, which cools and enters the air. Can be controlled with app." },
+      "condition": { "zh": "良好", "en": "Good condition" },
+      "listPrice": 30,
+      "retailPrice": 79.98,
+      "link": "https://a.co/d/0e6shsZf",
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["15_dreo_tower_heater.jpeg"]
+    },
+    {
+      "id": "16-dual-monitors",
+      "category": "electronics",
+      "name": { "zh": "Dell + Samsung 双显示器", "en": "Dell + Samsung dual monitors" },
+      "desc": { "zh": "一台 Dell 平面显示器和一台 Samsung 曲面显示器", "en": "One Dell flat monitor and one Samsung curved monitor" },
+      "condition": { "zh": "有使用痕迹", "en": "Used condition" },
+      "listPrice": "100",
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["16_dual_monitors.jpeg"]
+    },
+    {
+      "id": "17-cartoon-dinnerware",
+      "category": "home",
+      "name": { "zh": "小刘鸭陶瓷餐具套装", "en": "Cartoon ceramic dinnerware set" },
+      "desc": { "zh": "小刘鸭陶瓷餐具，含分格盘、圆盘、碗和两个小碟，数量以照片为准。", "en": "Cartoon ceramic set with a divided plate, round plate, bowl and two small dishes; quantity as pictured." },
+      "condition": { "zh": "外观良好", "en": "Good cosmetic condition" },
+      "listPrice": 20,
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["17_cartoon_dinnerware.jpeg"]
+    },
+    {
+      "id": "18-scooter",
+      "category": "mobility",
+      "name": { "zh": "NIU - KQi3 Pro 折叠scooter", "en": "NIU - KQi3 Pro Foldable Electric Kick Scooter" },
+      "desc": { "zh": "续航约 25km，可折叠，带原装充电器。", "en": "~25 km range, folds down, comes with original charger." },
+      "condition": { "zh": "八成新", "en": "Good" },
+      "listPrice": 200,
+      "retailPrice": 511.82,
+      "link": "https://www.bestbuy.com/product/niu-kqi3-pro-foldable-electric-kick-scooter-w-31-mi-max-operating-range-20-mph-max-speed-black/J3R8WGPF8R",
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["18_scooter.jpeg"]
+    }
+  ]
+}
