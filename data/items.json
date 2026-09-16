@@ -239,6 +239,18 @@
       "currency": "USD",
       "dimensions": "",
       "images": ["18_scooter.jpeg"]
+    },
+    {
+      "id": "20-flower-plate",
+      "category": "home",
+      "name": { "zh": "Anthropology杯盘套装", "en": "Anthropology cup and plate set" },
+      "desc": { "zh": "", "en": "" },
+      "condition": { "zh": "良好", "en": "Good" },
+      "listPrice": 15,
+      "link": "https://www.bestbuy.com/product/niu-kqi3-pro-foldable-electric-kick-scooter-w-31-mi-max-operating-range-20-mph-max-speed-black/J3R8WGPF8R",
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["20_flower_plate.jpeg"]
     }
   ]
 }
