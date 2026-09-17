@@ -275,6 +275,29 @@
       "currency": "USD",
       "dimensions": "",
       "images": ["22_backpack.jpg"]
+    },
+    {
+      "id": "23-tv-with-stand",
+      "category": "furniture",
+      "name": { "zh": "LG 智能电视（含三脚电视架）", "en": "LG smart TV with tripod stand" },
+      "desc": { "zh": "LG 55'智能电视，包含照片中的VIVO木质三脚电视架, 可以自由转向。送Firestick可以看iyf :)", "en": "LG smart TV with the wooden tripod TV stand shown." },
+      "condition": { "zh": "良好", "en": "Good" },
+      "listPrice": 150,
+      "retailPrice": 389.71,
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["23_tv_with_stand.jpeg"]
+    },
+    {
+      "id": "24-desk",
+      "category": "furniture",
+      "name": { "zh": "木质书桌", "en": "Wood desk" },
+      "desc": { "zh": "浅色木质书桌，带两个抽屉；不含照片中的显示器。购于wayfair。", "en": "Light wood desk with two drawers; monitors and desktop accessories are not included." },
+      "condition": { "zh": "良好", "en": "Good" },
+      "listPrice": 50,
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["24_desk.jpeg"]
     }
   ]
 }
