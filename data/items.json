@@ -258,7 +258,7 @@
       "name": { "zh": "追觅腰部按摩仪器", "en": "Waist massager" },
       "desc": { "zh": "", "en": "" },
       "condition": { "zh": "良好", "en": "Good" },
-      "listPrice": 30,
+      "listPrice": 10,
       "currency": "USD",
       "dimensions": "",
       "images": ["21_massage.jpeg"]
