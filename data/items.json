@@ -298,6 +298,18 @@
       "currency": "USD",
       "dimensions": "",
       "images": ["24_desk.jpeg"]
+    },
+    {
+      "id": "25-bed",
+      "category": "furniture",
+      "name": { "zh": "Ikea Malm 原木色床", "en": "Ikea Malm wood bed" },
+      "desc": { "zh": "Ikea Malm 原木色床，带储物空间；含床垫；已拆卸可自取，但缺少一件螺丝可以找ikea补，CA 95125", "en": "Ikea Malm wood bed with storage space; mattress and bedding are not included." },
+      "condition": { "zh": "良好", "en": "Good" },
+      "listPrice": 0.1,
+      "retailPrice": 900,
+      "currency": "USD",
+      "dimensions": "",
+      "images": ["25_bed.png"]
     }
   ]
 }
