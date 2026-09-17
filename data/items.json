@@ -161,8 +161,8 @@
     {
       "id": "12-beige-ceramic-dinnerware",
       "category": "home",
-      "name": { "zh": "米白色陶瓷餐具套装", "en": "Beige ceramic dinnerware set" },
-      "desc": { "zh": "米白色陶瓷餐具，含大小餐盘各两个和杯子两个", "en": "Beige ceramic set with dinner plates, smaller plates and cups; quantity as pictured." },
+      "name": { "zh": "Hearth & Hand stoneware餐具套装", "en": "Hearth & Hand stoneware set" },
+      "desc": { "zh": "Hearth & Hand餐具套装，含大小餐盘各两个和杯子两个，共六件", "en": "Hearth & Hand stoneware set with dinner plates, smaller plates and cups; quantity as pictured." },
       "condition": { "zh": "外观良好", "en": "Good cosmetic condition" },
       "listPrice": 20,
       "currency": "USD",
