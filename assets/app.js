@@ -11,6 +11,7 @@
 const STRINGS = {
   en: {
     all: "All",
+    available: "Available",
     refresh: "Refresh",
     codeOk: "Friend prices unlocked — welcome 👋",
     codeErr: "That link's code didn't work.",
@@ -27,11 +28,13 @@ const STRINGS = {
     retail: "Retail",
     productPage: "Product page",
     empty: "Nothing in this category yet.",
+    emptyAvailable: "No available items right now.",
     footerNote: "Shared privately with friends. Prices negotiable.",
     langName: "中文",
   },
   zh: {
     all: "全部",
+    available: "未售出",
     refresh: "刷新",
     codeOk: "已解锁朋友价 👋",
     codeErr: "这个链接的码不对。",
@@ -48,6 +51,7 @@ const STRINGS = {
     retail: "原价",
     productPage: "原商品链接",
     empty: "这个分类还没有东西。",
+    emptyAvailable: "目前没有未售出的物品。",
     footerNote: "仅私下分享给朋友，价格可小刀。",
     langName: "EN",
   },
@@ -212,7 +216,11 @@ function renderMessages() {
 
 function renderCategoryBar() {
   const bar = $("#category-bar");
-  const cats = [{ id: "all", zh: STRINGS.zh.all, en: STRINGS.en.all }, ...state.categories];
+  const cats = [
+    { id: "all", zh: STRINGS.zh.all, en: STRINGS.en.all },
+    { id: "available", zh: STRINGS.zh.available, en: STRINGS.en.available },
+    ...state.categories,
+  ];
   bar.innerHTML = "";
   for (const c of cats) {
     const btn = document.createElement("button");
@@ -234,23 +242,26 @@ function render() {
   const catalog = $("#catalog");
   catalog.innerHTML = "";
 
+  const availableOnly = state.category === "available";
+  const isVisible = (item) => !availableOnly || (state.statusMap[item.id] || "available") === "available";
+
   const groups = state.categories
-    .filter((c) => state.category === "all" || c.id === state.category)
+    .filter((c) => state.category === "all" || availableOnly || c.id === state.category)
     .map((c) => ({
       cat: c,
-      items: state.items.filter((it) => it.category === c.id),
+      items: state.items.filter((it) => it.category === c.id && isVisible(it)),
     }))
     .filter((g) => g.items.length);
 
   const known = new Set(state.categories.map((c) => c.id));
-  const orphans = state.items.filter((it) => !known.has(it.category));
-  if (orphans.length && state.category === "all") {
+  const orphans = state.items.filter((it) => !known.has(it.category) && isVisible(it));
+  if (orphans.length && (state.category === "all" || availableOnly)) {
     groups.push({ cat: { id: "_other", zh: "其他", en: "Other" }, items: orphans });
   }
 
   const empty = $("#empty-msg");
   if (!groups.length) {
-    empty.textContent = t("empty");
+    empty.textContent = t(availableOnly ? "emptyAvailable" : "empty");
     empty.hidden = false;
     return;
   }
